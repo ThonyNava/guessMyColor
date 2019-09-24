@@ -1,0 +1,95 @@
+*{
+    color: white;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #232323;
+    text-align: center;
+}
+
+#messageBox{
+    height: 2rem;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#squareBox{
+    max-height: 0px;
+    overflow: hidden;
+}
+
+.easyPadding{
+    padding-bottom: 12rem;
+    transition-delay: 0.3s;
+    transition-duration: 0.3s;
+}
+
+.hardPadding{
+    padding-bottom: 24rem;
+    transition-duration: 0.6s;
+}
+
+.square{
+    margin: 1%;
+    border-radius: 50%;
+    padding-bottom: 30%;
+    width: 30%;
+    background: #232323;
+    transition: all 0.6s;
+}
+
+.opacity-0{
+    margin: 1%;
+    border-radius: 50%;
+    padding-bottom: 30%;
+    width: 30%;
+    opacity: 0;
+    transition: all 0.6s;
+}
+
+.wrongBoxClicked{
+    box-shadow: 0px 0px 2px white;
+    background: #232323;
+    transition: all 0.6s;
+
+}
+
+.btn{
+    margin: 1%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 2px white;
+    padding: 15% 0;
+    width: 30%;
+}
+
+.btn:hover{
+    background: white;
+    color: #232323;
+}
+
+.btn_hover{
+    background: white;
+    color: #232323;
+    transition-duration: 0.3s;
+}
+
+.btn-text{
+    margin: 0;
+    padding: 0;
+    height: 0px;
+    color: inherit;
+}
+
+.activated{
+    box-shadow: 0px 0px 8px white;
+    transition: all 0.3s;
+}
