@@ -35,7 +35,6 @@ function start(){
                 changeColors(pickedColor);
                 restartButton.classList.add("btn_hover");
             } else {
-                this.classList.add("opacity-0");
                 this.classList.add("wrongBoxClicked");
                 messageDisplay.textContent = "Ups! Try again";
             }

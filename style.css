@@ -58,7 +58,7 @@ body{
 
 .wrongBoxClicked{
     box-shadow: 0px 0px 2px white;
-    background: #232323;
+    background: #232323!important;
     transition: all 0.6s;
 
 }
@@ -92,4 +92,14 @@ body{
 .activated{
     box-shadow: 0px 0px 8px white;
     transition: all 0.3s;
+}
+
+@media screen and (max-width: 600px){
+    .easyPadding{
+        padding-bottom: 32%;
+    }
+    
+    .hardPadding{
+        padding-bottom: 64%;
+    }
 }
