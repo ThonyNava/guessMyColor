@@ -1,5 +1,33 @@
 *{
+    font-family: 'Montserrat', sans-serif;
     color: white;
+}
+
+.mb-2{
+    margin-bottom: 1.5rem;
+}
+
+.text-sp{
+    letter-spacing: 0.06rem;
+}
+
+h1{
+    margin-bottom: 1.5rem;
+    font-size: 3rem;
+    margin-top: 0;
+}
+
+p{
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.text-border{
+    text-shadow: 
+    -0.02rem 0 #232323,
+    0 0.02rem #232323,
+    0.02rem 0 #232323,
+    0 -0.02rem #232323;
 }
 
 body{
@@ -9,8 +37,21 @@ body{
     text-align: center;
 }
 
+#header{
+    padding: 1.5rem 0;
+}
+
 #messageBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 2rem;
+}
+
+#message{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 500;
 }
 
 .container{
