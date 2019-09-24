@@ -10,33 +10,39 @@
 </head>
 <body>
 
-    <div class="mb-2" id="header">
-        <h1 class="text-border text-sp">Guess my color</h1>
-        <p class="text-border text-sp">Click the color box that match whit<br><span id="rgbColorDisplay">RGBcolor</span></p>
-        <div id="messageBox">
-            <span class="text-border text-sp" id="message"></span>
-        </div>
-    </div>
-
-    <div class="container easyPadding" id="squareBox">
-        <div class="square"></div>
-        <div class="square"></div>
-        <div class="square"></div>
-        <div class="square hard opacity-0"></div>
-        <div class="square hard opacity-0"></div>
-        <div class="square hard opacity-0"></div>
-    </div>
-
-    <div class="container" id="btnBox">
-        <div class="btn activated" id="easyBtn">
-            <p class="btn-text">Easy</p>
-        </div>
-        <div class="btn" id="restartBtn">
-            <p class="btn-text">Restart</p>
-        </div>
-        <div class="btn" id="hardBtn">
-            <p class="btn-text">Hard</p>
-        </div>
+    <div id="main-container">
+        <section id="sec-1">
+            <div id="header">
+                <h1 class="text-border text-sp">Guess my color</h1>
+                <p class="text-border text-sp">Click the color box that match whit<br><span id="rgbColorDisplay">RGBcolor</span></p>
+                <div id="messageBox">
+                    <span class="text-border text-sp" id="message"></span>
+                </div>
+            </div>
+        </section>
+    
+        <section id="sec-2">
+            <div class="container easyPadding" id="squareBox">
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square hard opacity-0"></div>
+                <div class="square hard opacity-0"></div>
+                <div class="square hard opacity-0"></div>
+            </div>
+        
+            <div class="container" id="btnBox">
+                <div class="btn activated" id="easyBtn">
+                    <p class="btn-text">Easy</p>
+                </div>
+                <div class="btn" id="restartBtn">
+                    <p class="btn-text">Restart</p>
+                </div>
+                <div class="btn" id="hardBtn">
+                    <p class="btn-text">Hard</p>
+                </div>
+            </div>
+        </section>
     </div>
 
     <script src="script.js"></script>
