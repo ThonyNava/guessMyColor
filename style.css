@@ -132,7 +132,7 @@ body{
     transition: all 0.3s;
 }
 
-@media screen and (min-width: 577px) and (max-width: 992px){
+@media screen and (max-height: 440px){
 
     #main-container{
         padding: 1rem;
